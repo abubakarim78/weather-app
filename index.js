@@ -36,7 +36,8 @@ function getWeather(city) {
 
   // Funtion to clear previous results when a new city is searched
   function cancelPrev() {
-    displayWeather.innerHTML = ""; 
+    displayWeather.innerHTML = "";
+    errorInfo.innerHTML = "";
   }
 
   // define your data variables to be fetched
