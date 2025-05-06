@@ -1,0 +1,67 @@
+* {
+    marging: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(./images/sky.jpg); 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 222, 222);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(4, 4, 3, 0.5);
+    width: 70%;
+    
+}
+
+.search-area {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#cityInput {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: darkgray solid;
+    margin-right: 5px;
+    box-shadow: 0 0 10px rgba(203, 201, 145, 0.5);
+}
+
+#weatherInfo {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(233, 186, 19);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 5px rgba(48, 7, 229, 0.5);
+
+}
+
+button:hover {
+    background: rgb(8, 8, 147);
+    color: white;  
+}
