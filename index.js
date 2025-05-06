@@ -49,6 +49,7 @@ function getWeather(city) {
     const icon = data.weather[0].icon; // display icon
 
     // display weather deatils
+
     weatherInfo.innerHTML = `
         <h2>City Name: ${name}</h2>
         <p>Temperature: ${actualTemp}°C</p>
